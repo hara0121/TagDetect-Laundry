@@ -7,7 +7,7 @@ from tensorflow.keras.preprocessing import image
 import numpy as np
 
 
-classes = ["not-wash","wash"]
+classes = ["洗濯不可","洗濯可能"]
 image_size = 50
 
 UPLOAD_FOLDER = "uploads"
@@ -43,7 +43,7 @@ def upload_file():
             #変換したデータをモデルに渡して予測する
             result = model.predict(data)[0]
             predicted = result.argmax()
-            pred_answer = "これは " + classes[predicted] + " です"
+            pred_answer =  classes[predicted] + " です"
 
             return render_template("index.html",answer=pred_answer)
 
