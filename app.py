@@ -7,7 +7,7 @@ from tensorflow.keras.preprocessing import image
 import numpy as np
 
 
-classes = ["洗濯不可","洗濯可能"]
+classes = ["洗濯可能","洗濯不可"]
 image_size = 50
 
 UPLOAD_FOLDER = "uploads"
