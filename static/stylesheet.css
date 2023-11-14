@@ -1,64 +1,72 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    background-image: url('https://www.2ndstreet.jp/2ndstyle/wp-content/uploads/2023/10/AdobeStock_621948308-884x600.jpeg');
+    background-size:  65% 100%;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
 header {
     background-color: #76B55B;
     height: 60px;
     margin: -8px;
     display: flex;
-    flex-direction: row-reverse;
+flex-direction: row-reverse;
     justify-content: space-between;
 }
 
 .header-logo {
     color: #fff;
     font-size: 25px;
+    text-align: left;
     margin: 15px 25px;
 }
 
 .header_img {
-    height: 25px;
-    margin: 15px 25px;
+    height: 40px;
+    margin: 10px 25px 15px;
 }
 
 .main {
-    height: 370px;
+    height: 800px;
 }
+
 
 h2 {
     color: #444444;
-    margin: 90px 0px;
-    text-align: center;
+    text-align: left;
+    margin-left: 180px;
+    margin-top: 30px;
 }
 
 p {
     color: #444444;
-    margin: 70px 0px 30px 0px;
-    text-align: center;
+    margin: 70px 0px 30px 80px;
+    text-align: left;
+
 }
 
 .answer {
     color: #444444;
-    margin: 70px 0px 30px 0px;
-    text-align: center;
+    margin: 70px 0px 30px 260px;
+    text-align: left;
 }
 
 form {
-    text-align: center;
+    text-align: left;
+    margin-left: 140px
 }
 
-footer {
-    background-color: #F7F7F7;
-    height: 110px;
-    margin: -8px;
-    position: relative;
-}
-
-.footer_img {
-    height: 25px;
-    margin: 15px 25px;
-}
-
-small {
-    margin: 15px 25px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: right;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 98%;
 }
